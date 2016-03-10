@@ -7,7 +7,7 @@ tests without installing anything but Docker.
 Mount your features in the `/test` folder of the image and run it:
 
 ``` bash
-docker run --rm -v features:/test/features lascap/aruba
+docker run --rm -v features:/test/features lascap/aruba-test
 ```
 
 Note that your `features` folder needs to contain a `features/support/aruba.rb`
