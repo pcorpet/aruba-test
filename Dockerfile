@@ -8,4 +8,4 @@ WORKDIR /test
 RUN gem install cucumber -v=2.3.2
 RUN gem install aruba -v=0.14.0
 
-CMD ["aruba"]
+CMD ["cucumber"]
